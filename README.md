@@ -1,11 +1,18 @@
 # 🤖 Chatbot for Customer Service — Enterprise AI Support Suite
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=github)](https://jaya-5118.github.io/chatbot-for-cutomer-churning/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-82.25%25_Acc-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An enterprise-ready, portfolio-grade **AI Customer Service & Support Intelligence Platform** built with **FastAPI**, **scikit-learn (Logistic Regression + TF-IDF)**, **Sentiment Analysis**, and a commercial **Intercom/Linear-style SaaS dashboard interface**.
+An enterprise-ready, portfolio-grade **AI Customer Service & Support Intelligence Platform** built with **FastAPI**, **scikit-learn (Logistic Regression + TF-IDF)**, **Sentiment Analysis**, and a commercial **SaaS dashboard interface**.
+
+---
+
+## 🌐 Live Web Demo
+
+**Anyone can open and test the application directly in their browser without installing anything:**
+
+👉 **[https://jaya-5118.github.io/chatbot-for-cutomer-churning/](https://jaya-5118.github.io/chatbot-for-cutomer-churning/)**
 
 ---
 
@@ -20,48 +27,25 @@ An enterprise-ready, portfolio-grade **AI Customer Service & Support Intelligenc
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ How Anyone Can Run It Locally
 
-- **Backend:** FastAPI, Uvicorn, Python 3.10+
-- **Machine Learning:** scikit-learn (Logistic Regression, TF-IDF Vectorizer), NumPy, Pandas, Joblib
-- **Frontend:** Vanilla HTML5, Modern CSS3 (Glassmorphic Linear/Stripe design system), JavaScript (ES6+), Google Fonts (*Outfit*, *Inter*, *JetBrains Mono*)
-- **Documentation:** Interactive OpenAPI / Swagger UI (`/docs`)
+### Option A: Open Live Web Link (No installation needed)
+Simply click **[https://jaya-5118.github.io/chatbot-for-cutomer-churning/](https://jaya-5118.github.io/chatbot-for-cutomer-churning/)**.
 
----
-
-## 🚀 Quick Start Guide
-
-### 1. Clone the Repository
+### Option B: Run Locally with Python FastAPI Backend
 ```bash
+# 1. Clone the repository
 git clone https://github.com/jaya-5118/chatbot-for-cutomer-churning.git
 cd chatbot-for-cutomer-churning
-```
 
-### 2. Install Dependencies
-```bash
+# 2. Install dependencies
 cd backend
 pip install -r requirements.txt
-```
 
-### 3. (Optional) Train the Intent Model
-```bash
-python training/train.py
-```
-
-### 4. Run the Application Server
-```bash
+# 3. Start the FastAPI server
 python -m uvicorn app.main:app --app-dir . --host 0.0.0.0 --port 8000 --reload
 ```
-
-Open your browser at **`http://localhost:8000/`** to view the live dashboard!
-
----
-
-## 📸 Screenshots & Architecture
-
-- **Live Chat Widget:** `http://localhost:8000/`
-- **Interactive Swagger Docs:** `http://localhost:8000/docs`
-- **API Health Check:** `http://localhost:8000/api/v1/health`
+Open **`http://localhost:8000/`** in your browser!
 
 ---
 
