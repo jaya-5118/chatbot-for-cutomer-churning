@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot for Customer Service — Enterprise AI Support Suite</title>
+  <meta name="description" content="Portfolio-grade AI Customer Support Platform featuring ML Intent Classification, Sentiment Analysis, and Live Agent Handoff.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    
+    <!-- LEFT SIDEBAR NAVIGATION -->
+    <aside class="app-sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-text-title">Customer Service</div>
+          <div class="brand-text-subtitle">AI Support Suite</div>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item-btn active" data-view="view-chat">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          <span>Live Support Widget</span>
+        </button>
+
+        <button class="nav-item-btn" data-view="view-analytics">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          <span>Analytics & KPIs</span>
+        </button>
+
+        <button class="nav-item-btn" data-view="view-escalations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          <span>Agent Handoff</span>
+          <span class="nav-badge">2</span>
+        </button>
+
+        <button class="nav-item-btn" data-view="view-knowledge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          <span>Knowledge Studio</span>
+        </button>
+
+        <button class="nav-item-btn" data-view="view-settings">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          <span>Model Architecture</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="agent-profile-card">
+          <div class="agent-avatar">AI</div>
+          <div>
+            <div style="font-weight:600; font-size:0.85rem;">CyberSupport Bot</div>
+            <div style="font-size:0.72rem; color:var(--text-muted);">Active · Fast-Inference</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- RIGHT MAIN CONTENT AREA -->
+    <main class="app-content">
+      
+      <!-- Top Executive Header -->
+      <header class="top-bar">
+        <div class="page-title-text" id="view-title-header">Chatbot for Customer Service</div>
+
+        <div class="top-meta-group">
+          <div class="status-indicator">
+            <span class="pulse-dot"></span>
+            <span>AI Core Active</span>
+          </div>
+          <span style="font-family:var(--font-mono); font-size:0.78rem; color:var(--text-muted)">Port 8000</span>
+        </div>
+      </header>
+
+      <!-- VIEW 1: LIVE SUPPORT WIDGET SIMULATOR -->
+      <section id="view-chat" class="view-body active">
+        <div class="chat-grid-layout">
+          
+          <div class="chat-window-card">
+            <div class="chat-header-bar">
+              <div style="display:flex; align-items:center; gap:0.75rem;">
+                <div class="agent-avatar" style="width:34px; height:34px; background:linear-gradient(135deg, #3b82f6, #06b6d4)">AI</div>
+                <div>
+                  <div style="font-weight:600; font-size:0.92rem;">Customer Support Virtual Agent</div>
+                  <div style="font-size:0.75rem; color:var(--accent-emerald);">● Online · 24/7 Automated Desk</div>
+                </div>
+              </div>
+
+              <button id="btn-reset-chat" class="action-pill-btn" style="padding:0.25rem 0.65rem; font-size:0.75rem;">Reset Session</button>
+            </div>
+
+            <!-- Messages Container -->
+            <div id="chat-messages-box" class="messages-scroll-area">
+              <div class="msg-row bot">
+                <div class="agent-avatar" style="width:32px; height:32px; background:linear-gradient(135deg, #3b82f6, #06b6d4)">AI</div>
+                <div class="msg-bubble">
+                  Hello! Welcome to <strong>Customer Service</strong>.
+                  <br><br>
+                  I can assist you with your <strong>orders (#ORD-8421)</strong>, <strong>refunds</strong>, <strong>shipping rates</strong>, or connect you with a live specialist.
+                  <div class="action-pill-group">
+                    <button class="action-pill-btn" onclick="submitMessage('Where is my package #ORD-9842?')">📦 Track Order #ORD-9842</button>
+                    <button class="action-pill-btn" onclick="submitMessage('What is your refund policy?')">💰 Refund Policy</button>
+                    <button class="action-pill-btn" onclick="submitMessage('I want to talk to a human agent')">🧑‍💼 Talk to Agent</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Input Bar - Clean Chips Wrap, NO Scrollbar -->
+            <div class="chat-footer-bar">
+              <div class="chips-wrap-container">
+                <div class="quick-prompt-chip" data-query="Where is my order #ORD-7193?">📦 Where is my order #ORD-7193?</div>
+                <div class="quick-prompt-chip" data-query="I want a refund for a damaged item">💰 Request a refund</div>
+                <div class="quick-prompt-chip" data-query="How much does express shipping cost?">🚚 Shipping rates</div>
+                <div class="quick-prompt-chip" data-query="Can I cancel my subscription?">❌ Cancel subscription</div>
+                <div class="quick-prompt-chip" data-query="What are your store hours?">⏰ Store opening hours</div>
+                <div class="quick-prompt-chip" data-query="Connect me to a real human representative">🧑‍💼 Talk to human agent</div>
+              </div>
+
+              <div class="input-flex-group">
+                <input 
+                  type="text" 
+                  id="user-input-box" 
+                  class="chat-input-element" 
+                  placeholder="Ask a customer service query (e.g. 'Can I return an item?', 'Track package #ORD-5012')..."
+                  autocomplete="off"
+                />
+                <button class="send-icon-btn" onclick="submitMessage()">
+                  <span>Send</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar Performance Card -->
+          <aside class="sidebar-info-card">
+            <div class="card-heading">
+              <span>Live Engine Telemetry</span>
+              <span>⚡</span>
+            </div>
+
+            <div style="font-size:0.83rem; line-height:1.7; color:var(--text-muted)">
+              <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem">
+                <span>Model Architecture:</span>
+                <strong style="color:#fff">Logistic Regression</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem">
+                <span>Feature Extractor:</span>
+                <strong style="color:#fff">TF-IDF (Sublinear)</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem">
+                <span>Intent Classes:</span>
+                <strong style="color:var(--accent-cyan)">23 Intents</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem">
+                <span>Inference Latency:</span>
+                <strong style="color:var(--accent-emerald)">3.8 ms</strong>
+              </div>
+            </div>
+
+            <div style="border-top:1px solid var(--border-subtle); padding-top:1rem;">
+              <div class="card-heading" style="margin-bottom:0.65rem">
+                <span>Enterprise Features</span>
+              </div>
+              <div style="font-size:0.8rem; color:var(--text-muted); line-height:1.6">
+                ✓ Automated Order ID parsing (`#ORD-...`)<br>
+                ✓ Frustration & Mood Detection<br>
+                ✓ Policy Citation Indexing<br>
+                ✓ 1-Click Human Agent Handoff
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+      <!-- VIEW 2: EXECUTIVE ANALYTICS HUB -->
+      <section id="view-analytics" class="view-body">
+        <div class="kpi-row-grid">
+          <div class="kpi-stat-card">
+            <div class="kpi-icon-box blue">💬</div>
+            <div>
+              <div id="kpi-total-queries" class="kpi-stat-num">142</div>
+              <div class="kpi-stat-lbl">Total Customer Inquiries</div>
+            </div>
+          </div>
+          <div class="kpi-stat-card">
+            <div class="kpi-icon-box emerald">⚡</div>
+            <div>
+              <div id="kpi-resolution-rate" class="kpi-stat-num">88.7%</div>
+              <div class="kpi-stat-lbl">AI Resolution Rate</div>
+            </div>
+          </div>
+          <div class="kpi-stat-card">
+            <div class="kpi-icon-box amber">⏱️</div>
+            <div>
+              <div id="kpi-latency" class="kpi-stat-num">3.8ms</div>
+              <div class="kpi-stat-lbl">Avg Response Latency</div>
+            </div>
+          </div>
+          <div class="kpi-stat-card">
+            <div class="kpi-icon-box purple">🚨</div>
+            <div>
+              <div id="kpi-escalations" class="kpi-stat-num">16</div>
+              <div class="kpi-stat-lbl">Agent Escalations</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-two-col">
+          <div class="content-panel-card">
+            <div class="card-heading" style="margin-bottom:1rem">
+              <span>Top Intent Distribution</span>
+              <span>📈</span>
+            </div>
+            <div id="analytics-intents-list">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <div class="content-panel-card">
+            <div class="card-heading" style="margin-bottom:1rem">
+              <span>Customer Sentiment Ratios</span>
+              <span>😊</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.9rem; margin-top:0.5rem">
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.3rem">
+                  <span style="color:#34d399">Positive / Delighted</span>
+                  <span>34%</span>
+                </div>
+                <div class="bar-progress-track"><div class="bar-progress-fill" style="width:34%; background:#10b981;"></div></div>
+              </div>
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.3rem">
+                  <span style="color:#9ca3af">Neutral / Inquiry</span>
+                  <span>46%</span>
+                </div>
+                <div class="bar-progress-track"><div class="bar-progress-fill" style="width:46%; background:#6b7280;"></div></div>
+              </div>
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.3rem">
+                  <span style="color:#fbbf24">Negative / Concerned</span>
+                  <span>15%</span>
+                </div>
+                <div class="bar-progress-track"><div class="bar-progress-fill" style="width:15%; background:#f59e0b;"></div></div>
+              </div>
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.3rem">
+                  <span style="color:#f43f5e">Frustrated / Urgent</span>
+                  <span>5%</span>
+                </div>
+                <div class="bar-progress-track"><div class="bar-progress-fill" style="width:5%; background:#f43f5e;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 3: AGENT HANDOVER QUEUE -->
+      <section id="view-escalations" class="view-body">
+        <div class="content-panel-card">
+          <div class="card-heading" style="margin-bottom:1.25rem">
+            <span>Live Escalation Queue & Agent Handoff</span>
+            <span class="status-indicator">2 Active Tickets</span>
+          </div>
+
+          <div style="overflow-x:auto;">
+            <table class="data-table-view">
+              <thead>
+                <tr>
+                  <th>Ticket ID</th>
+                  <th>Customer Name</th>
+                  <th>Reason / Message Snippet</th>
+                  <th>Sentiment</th>
+                  <th>Priority</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="escalation-table-body">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 4: KNOWLEDGE BASE STUDIO -->
+      <section id="view-knowledge" class="view-body">
+        <div class="content-panel-card" style="margin-bottom:1.5rem">
+          <div class="card-heading">
+            <span>Indexed Customer Policies & FAQ Studio</span>
+            <span>📚</span>
+          </div>
+          <p style="font-size:0.88rem; color:var(--text-muted); margin-top:0.5rem">
+            Verified knowledge policy documents loaded into vector search memory for instant customer citations.
+          </p>
+        </div>
+
+        <div id="kb-cards-grid" class="kb-grid-layout">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- VIEW 5: MODEL ARCHITECTURE & SPECS -->
+      <section id="view-settings" class="view-body">
+        <div class="content-panel-card" style="margin-bottom:1.5rem">
+          <div class="card-heading" style="margin-bottom:1rem">
+            <span>Machine Learning Pipeline Benchmarks</span>
+            <span>🧠</span>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1.25rem;">
+            <div style="background:rgba(255,255,255,0.02); padding:1rem; border-radius:8px; border:1px solid var(--border-subtle);">
+              <h4 style="color:#93c5fd; margin-bottom:0.4rem">Best Model Selected</h4>
+              <p style="font-size:0.88rem"><strong>Logistic Regression (Multinomial)</strong></p>
+              <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem">Calibrated probabilities with L-BFGS solver.</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.02); padding:1rem; border-radius:8px; border:1px solid var(--border-subtle);">
+              <h4 style="color:#93c5fd; margin-bottom:0.4rem">Feature Extraction</h4>
+              <p style="font-size:0.88rem"><strong>TF-IDF Vectorizer</strong></p>
+              <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem">max_features=5,000, ngram_range=(1,2).</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.02); padding:1rem; border-radius:8px; border:1px solid var(--border-subtle);">
+              <h4 style="color:#93c5fd; margin-bottom:0.4rem">Accuracy Benchmark</h4>
+              <p style="font-size:0.88rem"><strong>82.25% Accuracy</strong></p>
+              <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.3rem">Evaluated on 1,151 dataset samples across 23 classes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-panel-card">
+          <div class="card-heading" style="margin-bottom:0.85rem">
+            <span>23 Trained Intent Classes</span>
+            <span>🎯</span>
+          </div>
+          <div id="model-classes-pills">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+
+# ML artifacts (keep .pkl in repo for demo, but ignore large files)
+*.h5
+*.pt
+*.bin
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Misc
+*.sqlite3
+*.db

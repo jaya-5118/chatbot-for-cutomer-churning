@@ -1,0 +1,34 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.8225,
+    "precision": 0.8288,
+    "recall": 0.8225,
+    "f1_score": 0.82,
+    "cv_mean": 0.7772,
+    "cv_std": 0.0172
+  },
+  "Multinomial Naive Bayes": {
+    "accuracy": 0.7316,
+    "precision": 0.7451,
+    "recall": 0.7316,
+    "f1_score": 0.7275,
+    "cv_mean": 0.7141,
+    "cv_std": 0.0312
+  },
+  "Linear SVM": {
+    "accuracy": 0.8139,
+    "precision": 0.8168,
+    "recall": 0.8139,
+    "f1_score": 0.8104,
+    "cv_mean": 0.7685,
+    "cv_std": 0.0101
+  },
+  "best_model": "Logistic Regression",
+  "dataset_size": 1151,
+  "num_intents": 23,
+  "train_size": 920,
+  "test_size": 231,
+  "test_split": 0.2,
+  "random_seed": 42,
+  "feature_extraction": "TF-IDF (max_features=5000, ngram_range=(1,2))"
+}

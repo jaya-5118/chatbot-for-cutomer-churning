@@ -1,0 +1,40 @@
+# FastAPI & Server
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+
+# MongoDB
+motor
+pymongo
+
+# ML / NLP
+scikit-learn
+pandas
+numpy
+nltk
+joblib
+
+# Sentence Transformers & FAISS (Knowledge Retrieval)
+sentence-transformers
+faiss-cpu
+
+# Sentiment Analysis
+transformers
+torch
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Logging
+loguru
+
+# Rate Limiting
+slowapi
+
+# Utilities
+uuid6

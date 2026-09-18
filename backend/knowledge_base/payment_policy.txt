@@ -1,0 +1,31 @@
+PAYMENT POLICY
+
+1. Accepted Payment Methods
+We accept Visa, MasterCard, American Express, Discover, PayPal, Apple Pay, Google Pay, and bank transfers. Prepaid debit cards are also accepted.
+
+2. Payment Processing
+Payments are processed securely using industry-standard encryption. Your payment information is never stored on our servers.
+
+3. Failed Payments
+If a payment fails, please verify your card details, ensure sufficient funds are available, and confirm that your billing address matches the one on file with your bank. You may also try a different payment method.
+
+4. Authorization Holds
+When you place an order, a temporary authorization hold is placed on your payment method. This hold is released once the order is confirmed or cancelled, typically within 24 to 48 hours.
+
+5. Payment Declined
+Common reasons for declined payments include insufficient funds, incorrect card information, expired cards, or bank security restrictions. Contact your bank if the issue persists.
+
+6. Duplicate Charges
+If you notice a duplicate charge, please contact our support team immediately. We will investigate and process a refund for any erroneous charges within 3 to 5 business days.
+
+7. Currency
+All prices are listed in US Dollars (USD) unless otherwise specified. International customers may see converted amounts on their bank statements based on their bank's exchange rate.
+
+8. Invoices and Receipts
+An order confirmation and receipt are emailed to you immediately after purchase. You can also download invoices from your account dashboard.
+
+9. Payment Security
+We use SSL encryption and are PCI-DSS compliant. We do not store full credit card numbers. All transactions are monitored for fraudulent activity.
+
+10. Billing Issues
+For any billing discrepancies, contact customer support with your order number and payment details. Do not share your full card number via email or chat.

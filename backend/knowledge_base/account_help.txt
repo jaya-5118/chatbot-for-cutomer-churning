@@ -1,0 +1,31 @@
+ACCOUNT HELP
+
+1. Creating an Account
+To create an account, click "Sign Up" on our website and provide your name, email address, and a password. A verification email will be sent to confirm your account.
+
+2. Logging In
+Use your registered email and password to log in. If you have trouble logging in, try resetting your password using the "Forgot Password" link on the login page.
+
+3. Password Reset
+To reset your password, click "Forgot Password" on the login page. Enter your registered email address and follow the instructions in the reset email. The reset link expires after 24 hours.
+
+4. Updating Profile Information
+You can update your name, email, phone number, and address from your account settings page. Changes to your email address require verification.
+
+5. Account Security
+We recommend using a strong, unique password and enabling two-factor authentication (2FA) for added security. Never share your password or account credentials with anyone.
+
+6. Account Locked
+If your account is locked due to multiple failed login attempts, wait 30 minutes and try again. If the issue persists, contact customer support for assistance.
+
+7. Deleting Your Account
+To delete your account, go to account settings and select "Delete Account." This action is permanent and cannot be undone. All order history and saved information will be removed.
+
+8. Managing Payment Methods
+You can add, remove, or update saved payment methods from your account dashboard. For security, only the last four digits of your card are displayed.
+
+9. Order History
+Your complete order history is available in your account dashboard. You can view order details, track shipments, and download invoices from this section.
+
+10. Communication Preferences
+You can manage your email notification preferences from account settings. Choose which types of emails you want to receive, including order updates, promotions, and account alerts.

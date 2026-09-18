@@ -1,0 +1,1152 @@
+text,intent
+I'm requesting a full refund,refund_request
+I want to opt out of the subscription,subscription_cancel
+My delivery window has passed,delivery_delay
+My account shows invalid password,password_reset
+Can you send me a password reset link,password_reset
+Cancel my subscription please,subscription_cancel
+Can you expedite my order,order_status
+Do you have stores internationally,store_location
+The product material is different,wrong_product
+How does a computer work,unknown
+What payment methods do you accept,payment_methods
+I want to change my subscription tier,subscription_upgrade
+I want to make a complaint,complaint
+I can't access my account,account_problem
+My refund status shows pending for days,refund_status
+Can I get this product customized,product_information
+"I submitted a cancellation, is it confirmed",order_cancel
+My bank blocked the payment,payment_failed
+What are your operating hours,business_hours
+Good afternoon,greeting
+Thanks for your help,thank_you
+The product I received doesn't match my order,wrong_product
+"That's great, thank you",thank_you
+Are you open on Christmas,business_hours
+How do I upgrade my plan,subscription_upgrade
+I'm frustrated with the delivery delay,delivery_delay
+Are you open on weekends,business_hours
+Is this product organic,product_information
+Is international shipping available for this item,product_information
+The transaction was declined,payment_failed
+I see a charge but no order confirmation,payment_failed
+Where is this product manufactured,product_information
+I want to cancel due to technical issues,subscription_cancel
+"Hello, good to be here",greeting
+What's the stock price of Tesla,unknown
+Please process my refund as soon as possible,refund_request
+"I was told my refund would take 5 days, it's been 10",refund_status
+Is it too late to cancel,order_cancel
+I've been trying to cancel for days,subscription_cancel
+What is photosynthesis,unknown
+The payment form won't submit,payment_failed
+You sent the wrong shade of the color,wrong_product
+Is your store wheelchair accessible,store_location
+I'm waiting for my package,order_status
+Have a good day,goodbye
+Is my refund being processed,refund_status
+Can I see more photos of this product,product_information
+"Hey, I've been looking for help",greeting
+Thanks for staying on top of this,thank_you
+I can't delete my account,account_problem
+I need to reset the password for my associated email,password_reset
+The box was crushed and the product is damaged,damaged_product
+I can't sync my data,technical_support
+Thank you for your guidance,thank_you
+What are your store locations,store_location
+Are you open right now,business_hours
+"I want to cancel my order, is there a fee",order_cancel
+My account security questions aren't working,account_problem
+My password reset isn't working,password_reset
+Has the refund been credited to my card,refund_status
+Can I pay in euros,payment_methods
+"I need to cancel, I found a better price",order_cancel
+My credit card was declined,payment_failed
+This is unacceptable,complaint
+"Hi, I'm looking for assistance",greeting
+What's the return policy for this product,product_information
+"Hello, appreciate your time",greeting
+See you later,goodbye
+The product is leaking,damaged_product
+How long does the battery last,product_information
+I received an older version of the product,wrong_product
+Every interaction with your company has been painful,complaint
+Where are you located,store_location
+Do you have a store on Main Street,store_location
+"Bye, thanks again",goodbye
+I entered my card details but payment failed,payment_failed
+"Goodbye, thanks for the help",goodbye
+Is this product available,product_information
+Do you support contactless payments,payment_methods
+I insist on speaking with a real person,human_agent
+Can you compare two products for me,product_information
+Cancel my premium subscription,subscription_cancel
+Howdy,greeting
+I can't finish paying for my order,payment_failed
+The wrong gift was sent to the recipient,wrong_product
+What's the difference between model A and B,product_information
+Can I get a human on the phone,human_agent
+Where is your distribution center,store_location
+Can I buy in your warehouse,store_location
+"Good afternoon, I need assistance",greeting
+Is there a pop-up store near me,store_location
+I received a suspicious login alert,account_problem
+I want to upgrade and pay yearly to save money,subscription_upgrade
+The delivery promise was broken,delivery_delay
+I'm tired of being given the runaround,complaint
+Cancel my monthly plan,subscription_cancel
+Connect me to a real person,human_agent
+Do you have a kiosk at the shopping center,store_location
+Hello support team,greeting
+I really appreciate your thoroughness,thank_you
+"Hey, I'd appreciate some help",greeting
+"The product broke, I want a refund",refund_request
+I want to file a complaint with a human agent,human_agent
+I need to recover my account,account_problem
+Can I get an update on my order,order_status
+My package arrived with damage,damaged_product
+I want to speak to your manager,complaint
+What are your holiday hours,business_hours
+"Thanks, that's all I needed",thank_you
+I want written confirmation of cancellation,subscription_cancel
+Can you give me a tracking number,order_status
+Is there a cancellation penalty,subscription_cancel
+Does this come in different flavors,product_information
+I tried different cards but all fail,payment_failed
+Where is my refund,refund_status
+Who won the Super Bowl,unknown
+Have a wonderful day,goodbye
+I want to try the premium trial,subscription_upgrade
+I need to explain my issue to a real person,human_agent
+The dashboard isn't showing data,technical_support
+I want to pick up my order from a store,store_location
+This is fraudulent business practice,complaint
+Thanks for the detailed explanation,thank_you
+My 3D secure verification failed,payment_failed
+Can I pay by check,payment_methods
+My account is locked,account_problem
+Thank you kindly,thank_you
+I got someone else's order,wrong_product
+I appreciate your assistance,thank_you
+"Good morning, I need help with something",greeting
+I'm filing a complaint with the authorities,complaint
+I'm still waiting for my package,delivery_delay
+Tell me about the solar system,unknown
+"Bye, see you next time",goodbye
+What's your flagship store location,store_location
+I want to upgrade from basic to pro,subscription_upgrade
+So long,goodbye
+My express delivery is late,delivery_delay
+The payment process is broken,payment_failed
+How do I initiate a refund,refund_request
+Is chat support available 24 hours,business_hours
+I want to cancel one subscription but keep another,subscription_cancel
+How long until my order arrives,order_status
+I need help configuring settings,technical_support
+Thank you for your patience,thank_you
+My account email is wrong,account_problem
+I received a completely different product,wrong_product
+"Hello, is customer support still open",greeting
+"I'm good now, bye",goodbye
+I filed for a refund ages ago,refund_status
+Do you have a secure payment system,payment_methods
+What are the hours for your physical stores,business_hours
+I want a formal apology,complaint
+I forgot my password,password_reset
+When does your chat close,business_hours
+"The chatbot can't solve my problem, I need a human",human_agent
+My express order is slower than standard,delivery_delay
+Are you available on public holidays,business_hours
+Please process my cancellation request,order_cancel
+I tried three times but payment fails,payment_failed
+Why is my card being rejected,payment_failed
+Do you have multiple branches in my city,store_location
+There's physical damage to the product,damaged_product
+My Google Pay payment failed,payment_failed
+Get me a live person right now,human_agent
+The secure payment verification failed,payment_failed
+I need to update my password on all devices,password_reset
+How do I get a refund,refund_request
+I can't find the password reset option,password_reset
+I don't want automated responses,human_agent
+My data isn't backing up,technical_support
+Please escalate my issue to a person,human_agent
+I can't unsubscribe from my account,account_problem
+Thanks for your dedication,thank_you
+How do I cancel an order,order_cancel
+What is your best-selling product,product_information
+I submitted a refund request last week,refund_status
+Can I cancel a processed order,order_cancel
+"Hey, I was referred to this chat",greeting
+How do I stop my order from shipping,order_cancel
+The analytics aren't tracking,technical_support
+I can't change my email address,account_problem
+What's the status of my refund request,refund_status
+I've been waiting for two weeks for my delivery,delivery_delay
+"My order was delayed due to weather, when will it come",delivery_delay
+Can I cancel and get a prorated refund,subscription_cancel
+Can I use a virtual credit card,payment_methods
+I want to move from monthly to yearly,subscription_upgrade
+I placed my order three days ago,order_status
+Do you have a showroom,store_location
+I need to change my account details,account_problem
+Can I pay with a prepaid card,payment_methods
+I want a cancellation and full refund,order_cancel
+"Hi, I'm a customer and need help",greeting
+"I'll go now, bye",goodbye
+Where is my order,order_status
+The screen is cracked on the item I received,damaged_product
+I have a problem with my profile,account_problem
+I'm getting a 404 error,technical_support
+I need to change my password,password_reset
+I can't connect to the server,technical_support
+Can you refund my PayPal,refund_request
+"Hey, I need customer support",greeting
+I've been lied to by your team,complaint
+Can you solve a math problem,unknown
+Is there a support schedule I can see,business_hours
+What are the dimensions,product_information
+My order seems to be stuck,order_status
+I'm going to share my experience on social media,complaint
+My files aren't uploading,technical_support
+I ordered for iPhone but got an Android case,wrong_product
+I want to remove items from my order,order_cancel
+I want to add more users to my plan,subscription_upgrade
+"That's exactly what I needed, thanks",thank_you
+Thank you for your prompt response,thank_you
+"I changed my mind, cancel my order",order_cancel
+Take care,goodbye
+My account has unauthorized activity,account_problem
+I'm grateful for your help,thank_you
+I need to set up a new password,password_reset
+My account was merged incorrectly,account_problem
+What age group is this for,product_information
+I need a plan with more storage,subscription_upgrade
+Tell me about dinosaurs,unknown
+I can't remember my password,password_reset
+Has my order shipped yet,order_status
+I need to update my billing information,account_problem
+I need a refund because the product is defective,refund_request
+I want to track my order,order_status
+The app is not working,technical_support
+My package was supposed to be here today,delivery_delay
+Where can I experience your products firsthand,store_location
+Is there a newer version available,product_information
+Bye bye,goodbye
+"The product doesn't work, it seems damaged",damaged_product
+My item arrived broken,damaged_product
+I'm having compatibility issues,technical_support
+The product color is different from what I selected,wrong_product
+My account preferences are not being saved,account_problem
+I've been waiting for my refund for two weeks,refund_status
+I have two accounts and need to merge them,account_problem
+Can I request a callback from a real person,human_agent
+My account says wrong password,password_reset
+Can you cancel my order and refund me,order_cancel
+Do you accept mobile payments,payment_methods
+When will my delayed order arrive,delivery_delay
+How do airplanes fly,unknown
+I placed an order last week and haven't heard anything,order_status
+How do I permanently delete my subscription,subscription_cancel
+Can you check my refund status,refund_status
+I want to upgrade to remove ads,subscription_upgrade
+I can't pay for my order,payment_failed
+My settings are not saving,technical_support
+I want store credit instead of a refund,refund_request
+Why was my account disabled,account_problem
+"That's everything, goodbye",goodbye
+Is assembly required,product_information
+I was charged after I cancelled,subscription_cancel
+Please process my refund,refund_request
+I ordered something a week ago and it still shows processing,order_status
+I'm interested in the business plan,subscription_upgrade
+I'm thankful for your assistance,thank_you
+"Hey, looking for help here",greeting
+Is there a store in the downtown area,store_location
+Transfer me immediately,human_agent
+"Hi, hope you can help me today",greeting
+My app keeps freezing,technical_support
+Until next time,goodbye
+I need the store address,store_location
+My package is taking forever,delivery_delay
+My payment attempt was unsuccessful,payment_failed
+Is PayPal checkout available,payment_methods
+The product arrived with missing parts,damaged_product
+"That's all, bye",goodbye
+I need to escalate this to a human,human_agent
+I need to cancel due to financial reasons,order_cancel
+I can't upload my profile picture,account_problem
+Can I return items at any store location,store_location
+What is the capital of France,unknown
+My order is overdue,delivery_delay
+How long does cancellation take,order_cancel
+Hey support,greeting
+I appreciate the fast resolution,thank_you
+"Please don't ship my order, cancel it",order_cancel
+I want to upgrade my subscription,subscription_upgrade
+My order has been pending delivery for a week,delivery_delay
+Transfer me to a human,human_agent
+How do I reset my password,password_reset
+My shipment seems delayed,order_status
+Can you expedite my refund,refund_request
+"I ordered the wrong item, please cancel",order_cancel
+The wrong flavor was sent,wrong_product
+When does your store open on Saturday,business_hours
+Do you have a store near me,store_location
+Cancel all my pending orders,order_cancel
+I feel completely ignored as a customer,complaint
+Can someone walk me through the upgrade process,subscription_upgrade
+My account password won't reset,account_problem
+I'm having trouble with the browser extension,technical_support
+What forms of payment can I use,payment_methods
+I want to upgrade to include team collaboration,subscription_upgrade
+I'm getting a transaction error,payment_failed
+My account has been compromised,account_problem
+"Take care, goodbye",goodbye
+I'm concerned about my order taking too long,order_status
+What's the weight of this product,product_information
+What's the price for bulk orders,product_information
+I need more personalized help from a human,human_agent
+Thank you for going above and beyond,thank_you
+The product image won't display,technical_support
+How do I add premium features to my current plan,subscription_upgrade
+I ordered shoes but received a bag,wrong_product
+"This is urgent, I need a human immediately",human_agent
+I'm logging off now,goodbye
+Much appreciated,thank_you
+"I need a refund, I was charged twice",refund_request
+I want to end my membership,subscription_cancel
+Are you open on New Year's Day,business_hours
+Your staff is incompetent,complaint
+The new password I set won't save,password_reset
+I need help completing my payment,payment_failed
+I've been a loyal customer and this is how you treat me,complaint
+I want to cancel but keep access until the end of the period,subscription_cancel
+The product was damaged in shipping,damaged_product
+Please cancel the order I just placed,order_cancel
+Can I buy this as a gift,product_information
+I ordered organic but received non-organic,wrong_product
+My webhook isn't firing,technical_support
+It's been over a month since I requested a refund,refund_status
+Why was my card declined,payment_failed
+How late can I call today,business_hours
+Are there any additional charges for certain payment methods,payment_methods
+Can I transfer my subscription instead of cancelling,subscription_cancel
+I can't embed the widget,technical_support
+I need technical help,technical_support
+Can a human help me instead,human_agent
+"Hey, just need a quick hand",greeting
+Is there an issue with my order,order_status
+I keep getting a payment error,payment_failed
+I'm getting a certificate error,technical_support
+My payment was deducted but order failed,payment_failed
+Thanks for being so patient with me,thank_you
+The filter function is broken,technical_support
+Is your store in the same location as before,store_location
+The website keeps crashing,technical_support
+Please cancel order number 54321,order_cancel
+Cancel the subscription I didn't authorize,subscription_cancel
+What sizes are available,product_information
+Your company has failed me,complaint
+The cancellation button doesn't work,subscription_cancel
+I want more features,subscription_upgrade
+Do you have stores in Europe,store_location
+I received a defective item,damaged_product
+"The AI doesn't understand my issue, I need a human",human_agent
+Do you have a physical store,store_location
+My password must meet certain requirements,password_reset
+I want to report poor service,complaint
+I need human help for a sensitive issue,human_agent
+I need my refund urgently,refund_status
+I want to reset my password,password_reset
+This is beyond frustrating,complaint
+I can't use the chat feature,technical_support
+"Hello there, I'm hoping for assistance",greeting
+Cancel my entire order please,order_cancel
+I'm extremely dissatisfied,complaint
+I need help with installation,technical_support
+The wrong edition was shipped,wrong_product
+I returned the product but no refund yet,refund_status
+Can I preview the premium features,subscription_upgrade
+My refund seems stuck,refund_status
+My card has funds but payment was declined,payment_failed
+Is there a store in my city,store_location
+Can I cancel within 24 hours,order_cancel
+Do you have this in stock,product_information
+The two-factor authentication code isn't being sent,technical_support
+My account shows incorrect information,account_problem
+I need help tracking a package I ordered,order_status
+This experience has been a nightmare,complaint
+My delivery has been rescheduled multiple times,delivery_delay
+Explain blockchain to me,unknown
+"Thank you, you're amazing",thank_you
+Can I use Afterpay,payment_methods
+I was promised a refund but never received it,refund_request
+My refund is still pending,refund_status
+What is the speed of light,unknown
+The size chart was wrong and I got the wrong fit,wrong_product
+Do you close for lunch,business_hours
+How can you charge so much for such poor quality,complaint
+I'd like a refund to my credit card,refund_request
+"You've been wonderful, thank you",thank_you
+My payment keeps getting rejected,payment_failed
+The expected delivery date has passed,delivery_delay
+Tell me about space exploration,unknown
+The item in the box is different from what's on the label,wrong_product
+My package is stuck at a sorting facility,delivery_delay
+My debit card is not being accepted,payment_failed
+I want a refund for a subscription,refund_request
+I need human assistance,human_agent
+I tried to pay but got an error message,payment_failed
+How do vaccines work,unknown
+How do I use this product,product_information
+Catch you later,goodbye
+Talk to you later,goodbye
+My account was banned unfairly,account_problem
+Someone hacked my account,account_problem
+What's the difference between pro and enterprise,subscription_upgrade
+Is this product safe for children,product_information
+What tools do I need for assembly,product_information
+What's the address of your store,store_location
+My delivery was supposed to be free and fast,delivery_delay
+"Hello, reaching out for support",greeting
+Can I cancel my purchase,order_cancel
+I want to upgrade to the annual plan,subscription_upgrade
+The model year is different from what I ordered,wrong_product
+I need a refund for a cancelled order,refund_request
+"This bot isn't helping, give me a human",human_agent
+I can't add my payment method,payment_failed
+I no longer need this service,subscription_cancel
+How do I cancel without losing my data,subscription_cancel
+My payment is stuck processing,payment_failed
+Do you have extended hours,business_hours
+Bye for now,goodbye
+I've wasted so much time dealing with this,complaint
+The reset password page won't load,password_reset
+The electronics I received are faulty,damaged_product
+Can I use the same password as before,password_reset
+My account settings won't save,account_problem
+I require human intervention,human_agent
+My item was broken when I opened it,damaged_product
+Can I pay with American Express,payment_methods
+My order says pending for days,order_status
+How do I get a refund for a gift card,refund_request
+My appliance arrived damaged and won't turn on,damaged_product
+"This conversation isn't productive, transfer me",human_agent
+I'm cancelling my family plan,subscription_cancel
+The refund was supposed to be instant,refund_status
+I want to stop my subscription,subscription_cancel
+The shipping carrier keeps delaying my package,delivery_delay
+I'm losing my patience with your company,complaint
+Thanks so much,thank_you
+I need to cancel right away,subscription_cancel
+I haven't received any shipping updates,order_status
+Your service has gone downhill,complaint
+My tracking number is not working,order_status
+The login page keeps timing out,technical_support
+Greetings,greeting
+This isn't the correct item,wrong_product
+The checkout process is broken,technical_support
+How quickly can you cancel my order,order_cancel
+Thanks and goodbye,goodbye
+Why is my account restricted,account_problem
+I need a real person,human_agent
+"I have no more questions, bye",goodbye
+I need someone who can actually help,human_agent
+"Hello, can I speak with support",greeting
+What payment gateway do you use,payment_methods
+How do I upgrade through the app,subscription_upgrade
+I deserve a refund for this experience,refund_request
+"Hi, I just have a quick question",greeting
+Payment failed with error code 402,payment_failed
+My account has been flagged,account_problem
+I'll let you go now,goodbye
+The product has a large scratch across the front,damaged_product
+"Hi, can you point me in the right direction",greeting
+I want a temporary password,password_reset
+I'd like to cancel and reorder,order_cancel
+I don't want to renew my subscription,subscription_cancel
+The product I received looks used and damaged,damaged_product
+My account shows a different name,account_problem
+What's the weather like,unknown
+What are your weekday hours,business_hours
+The product arrived wet and damaged,damaged_product
+The product was clearly damaged before shipping,damaged_product
+My order arrived in poor condition,damaged_product
+The automated system isn't working for me,human_agent
+Is there a problem with my refund,refund_status
+Can I still cancel my order,order_cancel
+Please give me a refund immediately,refund_request
+"I'll reach out again if needed, bye",goodbye
+I'm ready to upgrade now,subscription_upgrade
+The wrong language version was sent,wrong_product
+Tell me a joke,unknown
+The product looks like a defective unit,damaged_product
+I want to remove my password and use social login,password_reset
+Where is your headquarters,store_location
+My product has a stain that wasn't in the listing,damaged_product
+How much does this product cost,product_information
+I want the enterprise subscription,subscription_upgrade
+My fragile items are delayed and I'm worried about damage,delivery_delay
+I want to downgrade and cancel premium,subscription_cancel
+I'm getting an error message,technical_support
+I want answers and I want them now,complaint
+Does this require batteries,product_information
+I paid for fast shipping but it's still not here,delivery_delay
+What is DNA,unknown
+What time zone are your hours in,business_hours
+Can you recommend a good movie,unknown
+Is this product allergen-free,product_information
+My order has been in transit for over a week,delivery_delay
+I want to know why my refund is late,refund_status
+There's a tear in the product,damaged_product
+When should I expect my delivery,order_status
+I keep getting logged out,account_problem
+I'm still waiting for my refund,refund_status
+I'm disgusted with the way I've been treated,complaint
+Do you have 24/7 support,business_hours
+What e-wallets do you support,payment_methods
+I want a refund because the item never arrived,refund_request
+What are the features of this product,product_information
+"Hey, can someone help me",greeting
+What's your earliest support time,business_hours
+When will this product be restocked,product_information
+My Apple Pay is not working for payment,payment_failed
+I want to upgrade to the VIP tier,subscription_upgrade
+My delivery was expected last Monday,delivery_delay
+I don't want to talk to a bot,human_agent
+This situation is outrageous,complaint
+What is the largest ocean,unknown
+Can I pay with Apple Pay,payment_methods
+My account was suspended,account_problem
+Thank you for your professionalism,thank_you
+Your response time is horrendous,complaint
+My loyalty points are missing from my account,account_problem
+"Hi there, is this customer service",greeting
+I need to update my phone number,account_problem
+I need a bigger plan,subscription_upgrade
+Has my refund been approved,refund_status
+My order is taking too long,order_status
+Where do I go to change my password,password_reset
+The delivery service is unreliable,delivery_delay
+Can you provide the user manual,product_information
+I lost my password,password_reset
+I've called multiple times with no resolution,complaint
+I want to speak to your manager,human_agent
+What are your Thanksgiving hours,business_hours
+I want to return this and get a refund,refund_request
+I signed up but can't find my account,account_problem
+Please update me on my refund,refund_status
+I need a refund for my order,refund_request
+"I changed my delivery preference, just cancel",order_cancel
+I want compensation for this terrible experience,complaint
+Thanks for your empathy,thank_you
+Can I upgrade and pay the difference,subscription_upgrade
+The feature is not functioning,technical_support
+Please cancel my recurring payment,subscription_cancel
+Do you have retail stores,store_location
+I want to check if my order has been shipped,order_status
+I forgot my username and password,password_reset
+The payment timed out,payment_failed
+I want to file a formal complaint,complaint
+The delivery app shows no update,delivery_delay
+The glass product arrived broken,damaged_product
+Is the helpdesk open all day,business_hours
+I'd like to talk to a person please,human_agent
+The payment gateway is not working,payment_failed
+My order should have arrived by now,delivery_delay
+I received a left shoe instead of right,wrong_product
+"I was overcharged, please refund the difference",refund_request
+I was supposed to receive my order yesterday,delivery_delay
+How often should I change my password,password_reset
+The item is not in the condition described,damaged_product
+Thank you for making this easy,thank_you
+Is Klarna available for payments,payment_methods
+"I want someone who can make decisions, not a bot",human_agent
+I ordered product A but received product B,wrong_product
+How do I cancel through the app,order_cancel
+My package hasn't moved in days,delivery_delay
+"I accidentally ordered twice, cancel one",order_cancel
+I need to talk to a human agent,human_agent
+This is not the first time I've had issues,complaint
+My overnight shipping wasn't overnight,delivery_delay
+My item has cosmetic damage,damaged_product
+"I bought this by accident, please refund",refund_request
+Goodbye,goodbye
+See you,goodbye
+The page won't load,technical_support
+Good evening,greeting
+Will upgrading change my billing date,subscription_upgrade
+I want an update on my pending refund,refund_status
+Please get me a live representative,human_agent
+The product has scratches,damaged_product
+Can you explain machine learning,unknown
+Refund my account please,refund_request
+"My password was compromised, I need to reset it",password_reset
+What is quantum computing,unknown
+I need help with API integration,technical_support
+Please have a human agent contact me,human_agent
+My calendar isn't syncing,technical_support
+"Hi, I was told to contact you",greeting
+I'm moving and need to cancel,subscription_cancel
+I want a refund,refund_request
+My refund hasn't arrived,refund_status
+Please transfer me to support,human_agent
+Can I split my payment,payment_methods
+I'm disappointed in your company,complaint
+Do you have parking at your store,store_location
+Can I pay with a corporate card,payment_methods
+The product quality is terrible,damaged_product
+My payment won't process,payment_failed
+Can you look into the status of my shipment,order_status
+How long will my refund take,refund_request
+Peace out,goodbye
+Is there a demo available,product_information
+I can't export my data,technical_support
+What colors does this come in,product_information
+I want to unlock all features,subscription_upgrade
+What time is it in Tokyo,unknown
+Is COD available,payment_methods
+Your policies are customer-unfriendly,complaint
+I want to upgrade but keep my current data,subscription_upgrade
+Can I upgrade mid-cycle,subscription_upgrade
+My card expired during checkout,payment_failed
+Do you accept bank transfers,payment_methods
+Hello,greeting
+You shipped the wrong order,wrong_product
+I want to change my account password,password_reset
+Do you take Visa,payment_methods
+I received the wrong pattern,wrong_product
+Tell me about ancient Egypt,unknown
+I want to shop in person,store_location
+I need help creating a stronger password,password_reset
+What are your business hours,business_hours
+How do I get premium features,subscription_upgrade
+The app crashes on startup,technical_support
+Can I pay with PayPal,payment_methods
+Is customer service available now,business_hours
+"I'm leaving now, bye",goodbye
+I need to update my password for security,password_reset
+Do you offer payment plans,payment_methods
+My item stopped working after one day,damaged_product
+The responsive layout is broken on mobile,technical_support
+I need this order cancelled right away,order_cancel
+I want to cancel my subscription,subscription_cancel
+When is the next available support window,business_hours
+I want to cancel my free trial,subscription_cancel
+I want to speak to someone in your escalation team,human_agent
+I can't verify my account,account_problem
+I haven't received my refund yet,refund_status
+I received the wrong item,wrong_product
+I received a chipped item,damaged_product
+I appreciate you looking into this,thank_you
+Can I preorder this product,product_information
+How do I switch from the free plan to paid,subscription_upgrade
+Why won't my card work,payment_failed
+I deserve better treatment than this,complaint
+Is there support during lunch hours,business_hours
+I need to transfer my account to a new email,account_problem
+When is the best time to call,business_hours
+My order arrived shattered,damaged_product
+What's included in the box,product_information
+I haven't reset my password in years,password_reset
+Your customer service is terrible,complaint
+I'm having account issues,account_problem
+The system won't accept my new password,password_reset
+What is the product material,product_information
+What are your summer hours,business_hours
+What time do your agents come online,business_hours
+I want to discuss this with a real support member,human_agent
+I specifically chose a different option,wrong_product
+"The quality is terrible, I want a full refund",refund_request
+I'm going to leave a bad review,complaint
+I'm experiencing a bug,technical_support
+Hello customer service,greeting
+Is there a minimum order for card payments,payment_methods
+Thank you for resolving this,thank_you
+I didn't receive the password reset email,password_reset
+I received a product with water damage,damaged_product
+How do I unsubscribe,subscription_cancel
+I'm locked out of my account,account_problem
+I forgot to cancel before the trial ended,subscription_cancel
+Can you tell me when my order will be delivered,order_status
+Can I schedule a store visit,store_location
+Can I change my payment method after ordering,payment_methods
+Can you put me through to a person,human_agent
+I want a refund for the warranty I purchased,refund_request
+I'd prefer to deal with a real person,human_agent
+"Hi, thanks for taking my query",greeting
+"I'm impressed, thank you",thank_you
+I keep getting told my refund is processing,refund_status
+Can I pay in installments,payment_methods
+My account shows an error,account_problem
+I expected my order three days ago,delivery_delay
+How long will my refund take,refund_status
+I need to know if my refund is coming,refund_status
+The delivery estimate was completely wrong,delivery_delay
+"Good evening, hope someone is available",greeting
+My account says it doesn't exist,account_problem
+"I placed an order by mistake, can I cancel it",order_cancel
+Have a great rest of your day,goodbye
+The system says payment unsuccessful,payment_failed
+When do you open,business_hours
+I've had nothing but problems,complaint
+I keep forgetting my password,password_reset
+Can I use multiple payment methods for one order,payment_methods
+I've been waiting for my refund,refund_request
+"Hello, I was hoping you could help",greeting
+Can I reset my password via phone,password_reset
+I need my refund processed urgently,refund_request
+"I want a refund, the service was terrible",refund_request
+I want to know all your locations,store_location
+I appreciate your support,thank_you
+Is this product eco-friendly,product_information
+Do you offer in-store shopping,store_location
+The wrong quantity was delivered,wrong_product
+What time do you stop taking calls,business_hours
+Cancel my recent order please,order_cancel
+Can I resubscribe after cancelling,subscription_cancel
+I prefer to shop at a physical location,store_location
+I want to dispute the subscription charge,subscription_cancel
+My device won't connect,technical_support
+I can't see my order history in my account,account_problem
+I'm considering switching to a competitor,complaint
+My account verification email didn't arrive,account_problem
+Can I pay with a gift card,payment_methods
+"Hello, thank you for being available",greeting
+Thank you for the follow-up,thank_you
+What language do they speak in Brazil,unknown
+Can I get my money back,refund_request
+I ordered a medium but got a large,wrong_product
+I ordered the premium version but got the basic one,wrong_product
+The audio is not working,technical_support
+"Hi, I need guidance",greeting
+The item doesn't match the description,wrong_product
+I'd like to request a refund,refund_request
+How much does the upgrade cost,subscription_upgrade
+Do you have authorized resellers near me,store_location
+Thanks for getting back to me so quickly,thank_you
+The dark mode isn't working,technical_support
+I received 1 item instead of 3,wrong_product
+I used my old password by mistake,password_reset
+Is there a discount for upgrading,subscription_upgrade
+The product specifications don't match what I ordered,wrong_product
+Why is my package late,delivery_delay
+"I returned the item, where is my refund",refund_request
+I got an error during checkout,payment_failed
+How do I cancel my membership,subscription_cancel
+"I no longer need this product, cancel it",order_cancel
+Do you accept foreign currency,payment_methods
+Good morning,greeting
+"Hi, this is my first time contacting",greeting
+"Thanks, bye now",goodbye
+What is global warming,unknown
+Thanks a lot,thank_you
+Has my package left the warehouse,order_status
+What happened to my order,order_status
+The payment page shows an error,payment_failed
+Thanks for fixing this,thank_you
+I received a damaged package,damaged_product
+The software is glitching,technical_support
+Does this product have a satisfaction guarantee,product_information
+I want the premium plan,subscription_upgrade
+Can you tell me when I'll get my refund,refund_status
+I can't log into my account,account_problem
+Can I upgrade without restarting my subscription,subscription_upgrade
+Can you expedite my refund,refund_status
+Is this product waterproof,product_information
+The payment method is not accepted,payment_failed
+The checkout page is giving errors,payment_failed
+I'd like my money returned,refund_request
+I got the wrong model,wrong_product
+I don't want this order anymore,order_cancel
+Cancel my subscription order,order_cancel
+I can't complete my purchase,payment_failed
+I need help cancelling my order,order_cancel
+I need to cancel my order immediately,order_cancel
+I want to cancel because of poor service,subscription_cancel
+Do you accept Google Pay,payment_methods
+I want to talk to a live agent,human_agent
+"I want to cancel immediately, not at cycle end",subscription_cancel
+"Hey there, I need some help",greeting
+Who is the president,unknown
+Are you open late today,business_hours
+What are the ingredients,product_information
+Is MasterCard accepted,payment_methods
+What benefits does the upgrade include,subscription_upgrade
+Wrong size was delivered,wrong_product
+Let me talk to a real human being,human_agent
+This needs to be fixed immediately,complaint
+The billing information doesn't match,payment_failed
+I'm seeing someone else's information on my account,account_problem
+My payment failed,payment_failed
+I feel like I've been scammed,complaint
+I need help with my account,account_problem
+When is the customer support team available,business_hours
+How do I get to your store,store_location
+The product has a manufacturing defect,damaged_product
+Where can I see the products before buying,store_location
+The product quality does not match photos,damaged_product
+Is there a delay with my order,order_status
+Please cancel order 12345,order_cancel
+I got a men's version instead of women's,wrong_product
+What's the shelf life,product_information
+"All done, goodbye",goodbye
+"Hi, is anyone available",greeting
+The tracking shows no movement,order_status
+The video won't play,technical_support
+"No more questions, goodbye",goodbye
+The tracking says it's stuck in transit,delivery_delay
+Can I use a debit card,payment_methods
+How do I stop auto-renewal,subscription_cancel
+I want to be connected to an agent,human_agent
+Cancel my pending order,order_cancel
+My password is not working,password_reset
+I appreciate you taking the time,thank_you
+Check my refund for order number 12345,refund_status
+You've lost my trust as a customer,complaint
+Is the upgrade worth it,subscription_upgrade
+Can you write me a poem,unknown
+What is dark matter,unknown
+My PayPal payment was declined,payment_failed
+I appreciate your expertise,thank_you
+The product has a hole in it,damaged_product
+I received a used item instead of new,wrong_product
+The product features are different from the listing,wrong_product
+I already cancelled but I'm still being charged,subscription_cancel
+"Good talking to you, bye",goodbye
+I need to know if my package is in transit,order_status
+What's the energy efficiency rating,product_information
+"Hello, I have an issue I need resolved",greeting
+Is this product on sale,product_information
+"Cheers, bye",goodbye
+I cannot complete the payment,payment_failed
+This product is not what was shown on the website,wrong_product
+Is there a cancellation window,order_cancel
+I tried resetting my password but it failed,password_reset
+Can someone look into my refund,refund_status
+I want to switch to a different plan before cancelling,subscription_cancel
+Is support available past midnight,business_hours
+Can you recommend a product,product_information
+Please switch me to a live agent immediately,human_agent
+"The product didn't match the description, refund please",refund_request
+Any updates on order 67890,order_status
+The seal on the product was broken,damaged_product
+I'm extremely frustrated,complaint
+Tell me about the latest news,unknown
+My item was damaged due to poor packaging,damaged_product
+"I'm done, goodbye",goodbye
+I'm tired of waiting for my delivery,delivery_delay
+I received someone else's personalized item,wrong_product
+When does your phone support end,business_hours
+How do I track my package,order_status
+What are the available payment options,payment_methods
+I can't thank you enough,thank_you
+Are you open on holidays,business_hours
+I ordered blue but received red,wrong_product
+I'm having a technical issue,technical_support
+The product variant doesn't match my selection,wrong_product
+Thank you for your time,thank_you
+Can you confirm my refund was sent,refund_status
+Do you accept credit cards,payment_methods
+Where is the nearest drop-off point,store_location
+Can you refund my purchase,refund_request
+I need an explanation for the shipping delay,delivery_delay
+What is cryptocurrency,unknown
+I want to cancel all my subscriptions,subscription_cancel
+Thank you and farewell,goodbye
+Which cities have your stores,store_location
+"I'm interested in upgrading, what do you recommend",subscription_upgrade
+Can I upgrade my family plan,subscription_upgrade
+What year was the moon landing,unknown
+"I'm all set, goodbye",goodbye
+My order is delayed with no explanation,delivery_delay
+Can you translate something for me,unknown
+I'm very unhappy with your service,complaint
+I want to talk to someone senior,human_agent
+My account two-factor authentication is broken,account_problem
+Hey,greeting
+My account dashboard is empty,account_problem
+"I'm not satisfied, I want my money back",refund_request
+"I've had enough of this bot, connect me to support",human_agent
+How do I create a new password,password_reset
+When was my refund initiated,refund_status
+I need my package by tomorrow but it's delayed,delivery_delay
+"Have a nice day, bye",goodbye
+What hours is the live chat available,business_hours
+I need to be refunded for a duplicate charge,refund_request
+My refund was approved but not yet received,refund_status
+What stores carry your products,store_location
+The search function is broken,technical_support
+I ordered two items but only received one,order_status
+Good day,greeting
+I want to visit your store,store_location
+You sent me the wrong product,wrong_product
+Will I get a refund if I cancel now,subscription_cancel
+Can you tell my fortune,unknown
+What are your hours on Sunday,business_hours
+What day is it today,unknown
+Do you have a store locator,store_location
+What time does customer support start,business_hours
+I will never buy from you again,complaint
+My delivery is delayed,delivery_delay
+Can I get an ETA on my delivery,order_status
+How do I cook pasta,unknown
+The courier hasn't delivered my package,delivery_delay
+Is email support available on weekends,business_hours
+"My refund request was denied, can you help",refund_request
+That's it for now,goodbye
+I want to cancel because I found it cheaper elsewhere,order_cancel
+The delivery has been delayed for days,delivery_delay
+My order arrived and everything inside was broken,damaged_product
+Is support available at night,business_hours
+Can I get a refund if I lost the receipt,refund_request
+My payment is not going through,payment_failed
+I want to cancel and get a refund,order_cancel
+Do you have a service center near me,store_location
+I expected much better from your company,complaint
+What's the safest payment method,payment_methods
+I want to add the premium support package,subscription_upgrade
+I need a new password,password_reset
+Can you check on my delivery,order_status
+I want to cancel my order,order_cancel
+I need to cancel before the next billing,subscription_cancel
+Can I pause instead of cancelling,subscription_cancel
+How tall is Mount Everest,unknown
+My order hasn't arrived yet,order_status
+Can I get a trial of the upgraded plan,subscription_upgrade
+Which mall are you located in,store_location
+I need my order but it's delayed,delivery_delay
+I changed my password but still can't log in,password_reset
+Can I call and speak to someone,human_agent
+I can't update my account information,account_problem
+I need a password reset urgently,password_reset
+I need to cancel my annual subscription,subscription_cancel
+Please check on my recent purchase,order_status
+Bye,goodbye
+"I've returned the product, now I need my refund",refund_request
+My old password doesn't work anymore,password_reset
+"Thanks, you've been very helpful",thank_you
+When are your busiest hours,business_hours
+This is the worst experience ever,complaint
+Please tell me my refund has been sent,refund_status
+The courier attempted delivery but I wasn't notified,delivery_delay
+I got an expired product,wrong_product
+The wrong accessories were included,wrong_product
+When do you close,business_hours
+What's the meaning of life,unknown
+"Bye, have a great evening",goodbye
+A human will understand my problem better,human_agent
+How long does the refund process take,refund_status
+Thank you,thank_you
+I can't find where to cancel,subscription_cancel
+Signing off,goodbye
+I need confirmation of my refund,refund_status
+My furniture arrived with visible damage,damaged_product
+Let me speak to someone,human_agent
+Can I pay with my store credit,payment_methods
+Is the store open on weekends,store_location
+"Hello, first time reaching out",greeting
+Do you have morning support,business_hours
+When was my order dispatched,order_status
+Thank you for clarifying that,thank_you
+I need to know where my order is,order_status
+Ending this chat now,goodbye
+Can I upgrade for just one month,subscription_upgrade
+I want to know the expected delivery date,order_status
+"Hello, can you assist me",greeting
+I was told I'd get a refund in 3 days,refund_status
+Please connect me to a human,human_agent
+I'm frustrated about the delay in my refund,refund_status
+The wrong variant was shipped,wrong_product
+What are the product specifications,product_information
+"Hello, anyone there",greeting
+Can I pay offline,payment_methods
+"Bye, I'll come back if I need more help",goodbye
+Can you check if the refund was processed,refund_status
+The transaction keeps failing,payment_failed
+Please stop my order from being delivered,order_cancel
+The shipping is taking too long,delivery_delay
+The packaging was fine but the product is broken,damaged_product
+Do you have evening support hours,business_hours
+My temporary password expired,password_reset
+I can't add a new address to my account,account_problem
+I don't use the subscription enough to justify the cost,subscription_cancel
+Please confirm my cancellation,subscription_cancel
+The password reset link expired,password_reset
+Do you accept international cards,payment_methods
+I need more bandwidth on my plan,subscription_upgrade
+It's been a week and I still don't have my refund,refund_status
+What are the upgrade options,subscription_upgrade
+Goodbye and good luck,goodbye
+The mobile app is slow,technical_support
+"Bye, you've been great",goodbye
+Thank you for the information,thank_you
+I need an update on my refund,refund_status
+My password reset email went to spam,password_reset
+Can I see the product reviews,product_information
+Which outlet mall has your store,store_location
+I got a product with a broken zipper,damaged_product
+Why does my payment keep failing,payment_failed
+Can I get a partial refund,refund_request
+My order was mixed up with someone else's,wrong_product
+"That was very helpful, thank you",thank_you
+The delivery company lost my package,delivery_delay
+How much will I be charged if I cancel early,subscription_cancel
+I want to cancel one item from my order,order_cancel
+"My order is wrong, I want to cancel",order_cancel
+My reports aren't generating,technical_support
+I received a product that's clearly been dropped,damaged_product
+Ending the conversation now,goodbye
+I need the tracking information for my order,order_status
+I'm escalating this complaint,complaint
+My package is lost in transit,delivery_delay
+How soon does the upgrade take effect,subscription_upgrade
+I placed an order but got no confirmation,order_status
+Please provide an update on my recent order,order_status
+I need a supervisor,human_agent
+I ordered a wireless version but got wired,wrong_product
+Thanks for helping me out,thank_you
+Is there a tracking for refunds,refund_status
+What's the status of order number 12345,order_status
+I'm concerned my refund was lost,refund_status
+Is cryptocurrency accepted,payment_methods
+This is the third time I've had this problem,complaint
+Where is your nearest store,store_location
+I really appreciate it,thank_you
+I want the address for returns at your store,store_location
+My account was deactivated without notice,account_problem
+I want to speak to a human,human_agent
+Goodnight,goodbye
+"Hello, I'd like some help please",greeting
+The delivery delay is unacceptable,delivery_delay
+Do you accept wire transfers,payment_methods
+Is this product compatible with my device,product_information
+Hi there,greeting
+Can I pay cash on delivery,payment_methods
+The update broke something,technical_support
+"Thank you, have a great day",thank_you
+Who invented the telephone,unknown
+Does this product come with a warranty,product_information
+My bank says they haven't received the refund,refund_status
+My account is not working properly,account_problem
+"Thanks, that solved my problem",thank_you
+The product material is ripped,damaged_product
+"Hi, I need help",greeting
+Are you closed on Sundays,business_hours
+Do you accept Venmo,payment_methods
+Is there a store I can walk into,store_location
+Tell me about this product,product_information
+What are the Olympic sports,unknown
+Tell me a fun fact,unknown
+"That wraps things up, bye",goodbye
+When exactly will my refund arrive,refund_status
+"Hey, good to connect with you",greeting
+My product has a dent,damaged_product
+Can I speak to a customer service representative,human_agent
+The integration isn't working,technical_support
+My account sync failed,technical_support
+Can I cancel an order that's already shipped,order_cancel
+What is the longest river,unknown
+What currencies do you accept,payment_methods
+What credit cards do you accept,payment_methods
+Why is my refund delayed,refund_status
+My tracking says delivered but I didn't get it,order_status
+I want a refund on my last three orders,refund_request
+Thanks for the quick response,thank_you
+Thanks for handling this so well,thank_you
+I got charged but the order wasn't placed,payment_failed
+"I'm satisfied, goodbye",goodbye
+Can I upgrade only certain features,subscription_upgrade
+Your product quality has deteriorated,complaint
+I need directions to your store,store_location
+I opened the box and the product was already broken,damaged_product
+The item I received is cracked,damaged_product
+What is a black hole,unknown
+The product finish is peeling,damaged_product
+I keep getting an authorization error,payment_failed
+Do your hours change during holidays,business_hours
+I demand better service,complaint
+Thanks for everything,thank_you
+I locked myself out by entering the wrong password too many times,password_reset
+Does this product have any certifications,product_information
+I forgot my password and my security questions,password_reset
+I want to stop the delivery and cancel,order_cancel
+There is a crack in the product that makes it unusable,damaged_product
+Nobody seems to care about my issue,complaint
+Is there a bundle deal available,product_information
+Can you play a game with me,unknown
+Why is the delivery taking so long,delivery_delay
+I need to cancel before it ships,order_cancel
+I'm cancelling because it's too expensive,subscription_cancel
+Can you reset my password manually,password_reset
+This is not what I ordered,wrong_product
+The map feature isn't loading,technical_support
+Do you have overnight support,business_hours
+Is there a payment method fee,payment_methods
+Tell me about your creators,unknown
+Is there a fee for PayPal payments,payment_methods
+Can I cancel a gift order,order_cancel
+My item is bent out of shape,damaged_product
+I entered my password correctly but it won't work,password_reset
+I want to upgrade to get priority support,subscription_upgrade
+I can't download the app,technical_support
+Can I save my payment method,payment_methods
+I want to compare plans before upgrading,subscription_upgrade
+When can I reach you by phone,business_hours
+What is artificial intelligence,unknown
+What's 2 plus 2,unknown
+When will my refund be processed,refund_status
+What programming language should I learn,unknown
+I need a refund for order 12345,refund_request
+I ordered a combo pack but received only one item,wrong_product
+The delivery date keeps changing,delivery_delay
+I want to know when you shipped my items,order_status
+I'm cancelling because the delivery is too slow,order_cancel
+My account keeps showing errors when I try to edit,account_problem
+I want the plan with unlimited access,subscription_upgrade
+I got a refurbished item instead of new,wrong_product
+"This product is not what I expected, I want a refund",refund_request
+The notifications aren't working,technical_support
+I'm having trouble with payment,payment_failed
+"All good here, goodbye",goodbye
+When does your ticket support start,business_hours
+What does the order status processing mean,order_status
+My electronic device has a dead pixel,damaged_product
+Can I switch to a higher tier,subscription_upgrade
+I want to add the analytics feature,subscription_upgrade
+"I need a refund, the item was used",refund_request
+I can't print from the application,technical_support
+I need a refund for unused services,refund_request
+How do I learn to play guitar,unknown
+I want to cancel my student subscription,subscription_cancel
+I can't type my password correctly,password_reset
+Is Discover card accepted,payment_methods
+Can you help me with homework,unknown
+I was auto-renewed without my consent,subscription_cancel
+Where is the closest pickup location,store_location
+Do you offer buy now pay later,payment_methods
+"Hi, I have a question",greeting
+This is the wrong brand,wrong_product
+When is your next business day,business_hours
+My order hasn't arrived,delivery_delay
+Where can I buy your products in person,store_location
+What is the Internet of Things,unknown
+Can you help me reset my password,password_reset
+When will my order arrive,order_status
+Thanks for the great service,thank_you
+My order has been delayed twice now,delivery_delay
+I want to enable passwordless login,password_reset
+I want a refund because the size was wrong,refund_request
+Is my order on its way,order_status
+Where is my package right now,order_status
+Do you have an outlet store,store_location
+Please refund the shipping charges,refund_request
+Can you sing a song,unknown
+My refund is taking too long,refund_status
+The amount was debited but I got a failure message,payment_failed
+Where is my delivery,delivery_delay
+I received a damaged product,damaged_product
+I received the wrong color,wrong_product
+Can you tell me my order status,order_status
+Why haven't I received my refund yet,refund_status
